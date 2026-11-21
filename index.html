@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080d0b" />
+  <title>ALL ABOUT FOOTBALL | AAF</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#home"><span class="brand-mark">AAF</span><span><b>ALL ABOUT</b><strong>FOOTBALL</strong></span></a>
+      <div class="side-label">MENU</div>
+      <nav class="side-nav">
+        <a class="active" href="#home">⌂ <span>Home</span></a>
+        <a href="#news">▤ <span>Football News</span></a>
+        <a href="#predictions">◎ <span>Predictions</span></a>
+        <a href="#ratings">★ <span>Player Ratings</span></a>
+        <a href="#clubs">♜ <span>Club World</span></a>
+        <a href="#community">◉ <span>Community</span></a>
+        <a href="#live">◷ <span>Live Centre</span></a>
+        <a href="#leaderboard">♛ <span>Leaderboard</span></a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="join-card"><span class="live-dot"></span><b>Stay in the game</b><p>Get football updates straight to WhatsApp.</p><a id="whatsappSide" href="#" target="_blank" rel="noopener">JOIN OUR CHANNEL ↗</a></div>
+        <div class="side-foot">© 2026 AAF · THE BEAUTIFUL GAME</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="mobile-brand" onclick="location.hash='#home'">⚽ AAF</button>
+        <div class="breadcrumb">THE BEAUTIFUL GAME <span>/</span> <b id="sectionName">HOME</b></div>
+        <div class="top-actions"><span class="live-pill"><i></i> FOOTBALL NEVER STOPS</span><button class="outline-btn" id="authOpen">Sign in</button><div class="avatar" id="userAvatar">G</div></div>
+      </header>
+
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="eyebrow-line"></span> YOUR HOME FOR EVERYTHING FOOTBALL</div>
+          <h1>IT'S MORE<br>THAN <em>A GAME.</em></h1>
+          <p>Breaking stories. Bold opinions. Matchday predictions. One community for the love of football.</p>
+          <div class="hero-actions"><a class="primary-btn" href="#news">EXPLORE THE LATEST <span>↗</span></a><a class="text-btn" href="#community">JOIN THE COMMUNITY →</a></div>
+        </div>
+        <div class="hero-visual"><div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div><div class="hero-ball">⚽</div><div class="hero-stamp">ALL<br>ABOUT<br><b>FOOTBALL</b></div><div class="hero-caption">90 MINUTES. 1,000 STORIES.</div></div>
+        <div class="hero-bottom"><span>01 — THE FAN EXPERIENCE</span><span>SCROLL TO EXPLORE ↓</span></div>
+      </section>
+
+      <section class="ticker"><span class="ticker-tag">AAF BRIEFING</span><div class="ticker-track"><span>THE LATEST IN WORLD FOOTBALL</span><b>✳</b><span>YOUR CLUB. YOUR VOICE.</span><b>✳</b><span>PREDICT. PLAY. PROVE IT.</span><b>✳</b><span>THE GAME LIVES HERE.</span></div></section>
+
+      <section class="content-section" id="news">
+        <div class="section-heading"><div><div class="eyebrow">THE TOUCHLINE</div><h2>LATEST <em>NEWS</em></h2></div><span class="section-note">FRESH FROM THE FOOTBALL WORLD</span></div>
+        <div class="news-layout">
+          <article class="featured-news"><div class="feature-image"><span class="image-tag">FEATURED STORY</span><span class="image-watermark">AAF</span></div><div class="feature-copy"><div class="meta"><span>AAF EDITORIAL</span><span>•</span><span>JUST NOW</span></div><h3>THE GAME IS ALWAYS ON.<br>GET THE LATEST STORIES HERE.</h3><p>Football updates, matchday moments and conversations from across the world. Sign in to join the discussion.</p></div></article>
+          <div class="news-feed" id="newsFeed"><div class="empty-state"><span>⚽</span><b>Your football feed starts here</b><p>New updates published by the AAF admin will appear here live.</p></div></div>
+        </div>
+      </section>
+
+      <section class="content-section dark-panel" id="predictions">
+        <div class="section-heading"><div><div class="eyebrow">CALL THE KIT</div><h2>JERSEY <em>PREDICTOR</em></h2></div><span class="section-note">PREDICT BEFORE KICK-OFF</span></div>
+        <div class="prediction-intro"><div><h3>KNOW THE COLOURS.<br><em>OWN THE BRAGGING RIGHTS.</em></h3><p>Choose the colours you think each team will wear. Correct predictions earn points on the AAF leaderboard.</p></div><div class="prediction-badge">10<span>PTS</span><small>PER CORRECT PICK</small></div></div>
+        <div class="prediction-box"><div class="prediction-placeholder"><span class="fixture-icon">⚽</span><div><b>UPCOMING KIT CHALLENGES</b><p>Match predictions will appear here when the admin publishes them.</p></div><span class="coming-soon">AWAITING FIXTURES</span></div></div>
+      </section>
+
+      <section class="content-section" id="ratings">
+        <div class="section-heading"><div><div class="eyebrow">THE VERDICT</div><h2>PLAYER <em>RATINGS</em></h2></div><span class="section-note">FANS HAVE THE FINAL WORD</span></div>
+        <div class="three-cards"><div class="info-card"><span class="card-icon">★</span><b>Rate the performance</b><p>Give players a score from 1 to 10 after the final whistle.</p></div><div class="info-card"><span class="card-icon">✦</span><b>Choose the standout</b><p>Vote for your Man of the Match and celebrate the best display.</p></div><div class="info-card"><span class="card-icon">↗</span><b>Compare fan verdicts</b><p>See community averages and discover who impressed the fans.</p></div></div>
+      </section>
+
+      <section class="content-section club-section" id="clubs">
+        <div class="section-heading"><div><div class="eyebrow">WHERE YOU BELONG</div><h2>THE CLUB <em>WORLD</em></h2></div><span class="section-note">REPRESENT YOUR BADGE</span></div>
+        <div class="club-banner"><div><h3>HOW WELL DO YOU<br><em>KNOW YOUR CLUB?</em></h3><p>Take a fan challenge, test your knowledge and earn your place among the true supporters.</p><a class="primary-btn" href="#community">EXPLORE FAN CHALLENGES ↗</a></div><div class="club-globe">🌍<span>GLOBAL<br>FOOTBALL</span></div></div>
+        <div class="club-chips"><span>ENGLAND</span><span>SPAIN</span><span>ITALY</span><span>GERMANY</span><span>FRANCE</span><span>NIGERIA</span><span>BRAZIL</span><span>+ MORE</span></div>
+      </section>
+
+      <section class="content-section dark-panel" id="community">
+        <div class="section-heading"><div><div class="eyebrow">YOUR VOICE MATTERS</div><h2>FAN <em>COMMUNITY</em></h2></div><span class="section-note">DEBATE IT. RESPECTFULLY.</span></div>
+        <div class="community-grid"><div class="community-copy"><h3>EVERY FAN<br>HAS A <em>TAKE.</em></h3><p>Join the conversation, reply to football updates using your username and let the world hear your football opinions.</p><button class="primary-btn" id="communitySignIn">JOIN THE DISCUSSION ↗</button></div><div class="discussion-card"><div class="discussion-top"><span class="live-dot"></span> THE AAF DISCUSSION BOARD</div><div id="discussionFeed"><div class="empty-state compact"><b>It's quiet on the touchline.</b><p>Be the first to join the conversation when discussions open.</p></div></div><form id="commentForm" class="comment-form"><input id="commentInput" maxlength="500" placeholder="Share your football take..." disabled><button disabled>POST ↗</button></form><small class="form-hint">Sign in to comment with your username.</small></div></div>
+      </section>
+
+      <section class="content-section" id="live">
+        <div class="section-heading"><div><div class="eyebrow">MATCHDAY CENTRAL</div><h2>LIVE <em>CENTRE</em></h2></div><span class="section-note">SCORES · FIXTURES · RESULTS</span></div>
+        <div class="live-placeholder"><div class="live-ball">⚽</div><div><b>YOUR MATCHDAY STARTS HERE</b><p>Live scores and fixtures can be connected through a football data provider in the next build phase.</p></div><span class="coming-soon">COMING NEXT</span></div>
+      </section>
+
+      <section class="content-section leaderboard-section" id="leaderboard">
+        <div class="section-heading"><div><div class="eyebrow">THE HALL OF FAME</div><h2>AAF <em>LEADERBOARD</em></h2></div><span class="section-note">EARN YOUR PLACE</span></div>
+        <div class="leaderboard-empty">🏆 <b>THE RACE IS ABOUT TO BEGIN</b><p>Points and rankings will appear as fans take part in predictions and quizzes.</p></div>
+      </section>
+
+      <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">AAF</span><span><b>ALL ABOUT</b><strong>FOOTBALL</strong></span></a><p>Everything Football. One Community.</p><span>© 2026 ALL ABOUT FOOTBALL. BUILT FOR THE FANS.</span><a id="whatsappFooter" href="#" target="_blank" rel="noopener">JOIN OUR WHATSAPP CHANNEL ↗</a></footer>
+    </main>
+  </div>
+
+  <div class="mobile-nav"><a href="#home">⌂<small>Home</small></a><a href="#news">▤<small>News</small></a><a href="#predictions">◎<small>Predict</small></a><a href="#community">◉<small>Community</small></a><a href="#clubs">♜<small>Clubs</small></a></div>
+
+  <div class="modal-backdrop" id="authModal">
+    <div class="modal"><button class="modal-close" id="authClose">×</button><div class="eyebrow">WELCOME TO THE COMMUNITY</div><h2 id="authTitle">SIGN <em>IN</em></h2><p class="modal-desc">Your username. Your club. Your football community.</p>
+      <form id="authForm"><label id="usernameLabel" class="hidden">USERNAME<input id="username" autocomplete="username" minlength="3" maxlength="20" placeholder="Choose a username"></label><label>EMAIL<input id="email" type="email" autocomplete="email" required placeholder="you@example.com"></label><label>PASSWORD<input id="password" type="password" autocomplete="current-password" minlength="6" required placeholder="At least 6 characters"></label><button class="primary-btn full-btn" id="authSubmit">SIGN IN ↗</button></form>
+      <div class="auth-switch"><span id="switchText">New to AAF?</span> <button id="authSwitch">Create an account</button></div><p class="auth-message" id="authMessage"></p>
+    </div>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
